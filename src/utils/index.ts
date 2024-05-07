@@ -1,7 +1,7 @@
 import axios from 'axios'
 import sourceMap from 'source-map-js'
-const LoadSourceMap = (url: string) => {
-    axios.get(url)
+const LoadSourceMap = async (url: string) => {
+    return await axios.get(url)
 }
 // // stackFrame.fileName 就是报错的Js代码，需要根据这个Js 获取到对应的source-map
 const findCodeBySourceMap = async (stackFrame: any) => {
