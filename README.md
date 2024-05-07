@@ -53,7 +53,3 @@ https://zhuanlan.zhihu.com/p/406510652
 2. https://blog.csdn.net/qq_57756904/article/details/135980853  (错误信息：Projects must list all files or use an 'include' pattern tsconfig.app.json)
 
 
-
-### 录制课程
-参考这个：
-https://juejin.cn/post/6963091303995441160  
