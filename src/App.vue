@@ -1,13 +1,5 @@
 <script setup lang="ts">
-import { onMounted } from 'vue';
 import { RouterLink, RouterView } from 'vue-router';
-let testNum: any = 1;
-onMounted(() => {
-  testNum = null;
-  if (testNum.length === 1) {
-    console.log('出错 了');
-  }
-});
 </script>
 
 <template>
