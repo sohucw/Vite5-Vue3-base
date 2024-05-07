@@ -6,11 +6,13 @@ import { RouterLink, RouterView } from 'vue-router';
   <header>
     <div class="wrapper">
       <nav>
-        <RouterLink to="/">Demo</RouterLink>
+        <RouterLink to="/">Demo-- 查看Js异常</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/trigger">触发Js异常</RouterLink>
       </nav>
     </div>
   </header>
+  <el-divider></el-divider>
   <RouterView />
 </template>
 
