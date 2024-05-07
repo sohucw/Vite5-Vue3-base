@@ -53,6 +53,6 @@ export default {
 
 .heightlight {
     color: #fff;
-    background-color: #6c5fc7;
+    background-color: #f12926;
 }
 </style>
