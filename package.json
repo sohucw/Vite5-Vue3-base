@@ -16,6 +16,7 @@
   "dependencies": {
     "element": "^0.1.4",
     "element-plus": "^2.7.2",
+    "error-stack-parser": "^2.1.4",
     "install": "^0.13.0",
     "pinia": "^2.1.7",
     "pnpm": "^9.0.6",
