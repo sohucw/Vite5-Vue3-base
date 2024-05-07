@@ -1,0 +1,2 @@
+import{d as a,o as p,c,a as r,e as t,g as d}from"./index-DSvhG_YR.js";const g={class:"about"},v=a({__name:"Trigger",setup(E){const s=()=>{typeError.length>0&&console.log("err!")},l=()=>{throw new ReferenceError("Hello")},i=()=>{throw new SyntaxError("Hello")};return(f,e)=>{const o=d("el-divider");return p(),c("div",g,[r("p",{onClick:e[0]||(e[0]=n=>s())},"触发TypeError"),t(o),r("p",{onClick:e[1]||(e[1]=n=>l())},"触发ReferenceError"),t(o),r("p",{onClick:e[2]||(e[2]=n=>i())},"触发SyntaxError")])}}});export{v as default};
+//# sourceMappingURL=Trigger-Cml2_ute.js.map
