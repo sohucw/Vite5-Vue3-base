@@ -47,3 +47,13 @@ pnpm lint
 ### 遇到的问题
 https://zhuanlan.zhihu.com/p/406510652
 按照评论区的步骤解决的！！！
+
+1. 部署github actioin 参考地址：https://juejin.cn/post/7275943600771678227
+
+2. https://blog.csdn.net/qq_57756904/article/details/135980853  (错误信息：Projects must list all files or use an 'include' pattern tsconfig.app.json)
+
+
+
+### 录制课程
+参考这个：
+https://juejin.cn/post/6963091303995441160  
