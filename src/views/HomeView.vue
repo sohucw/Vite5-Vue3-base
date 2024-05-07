@@ -62,7 +62,7 @@ const activeName = ref('1')
 const activeTabName = ref('1')
 let isError = ref(false);
 let visible = ref(false);
-let js_error = reactive<any>(null);
+let js_error = ref<any>(null);
 
 let stackFrameObj = {
   line: 0,
@@ -74,8 +74,8 @@ onMounted(() => {
         let js_error_info = localStorage.getItem('jsErrorList')
         if (js_error_info) {
           isError.value = true;
-          js_error = JSON.parse(js_error_info)
-            console.log(js_error)
+          js_error.value = JSON.parse(js_error_info)
+            console.log(js_error.value)
         }
     } catch (err) {
         console.log(err)
@@ -101,7 +101,7 @@ const sourceMapUpload =  async (file: any) => {
     reader.readAsText(file, 'UTF-8')
     reader.onload = async event => {
       const look_source = await lookSource(event!.target!.result, stackFrameObj.line, stackFrameObj.cloum)
-      js_error.stack_frames[stackFrameObj.index].origin = look_source
+      js_error.value.stack_frames[stackFrameObj.index].origin = look_source
       visible.value = false;
     }
     return false
